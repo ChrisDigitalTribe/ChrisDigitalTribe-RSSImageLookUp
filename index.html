@@ -13,7 +13,7 @@
             <div class="col" style="margin-bottom: -87px;"><img id="productImage" class="image" src="https://buses.gg/images/placeholder.jpg" alt="Product Image"/></div>
          </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
          <div class="col offset-lg-0">
             <form id="productForm" method="post" style="padding-top: 0px;margin-top: 69px;">
                 <section class="position-relative py-4 py-xl-5">
@@ -35,7 +35,30 @@
                 </section>
             </form>
          </div>
-      </div>
+      </div> -->
+      <div class="row">
+         <div class="col offset-lg-0">
+             <form id="productForm" method="post" style="padding-top: 0px;margin-top: 69px;">
+                 <section class="position-relative py-4 py-xl-5">
+                     <div class="container position-relative">
+                         <div class="row d-flex justify-content-center">
+                             <!-- <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5"> -->
+                                 <div class="card mb-5">
+                                     <div class="card-body p-sm-5">
+                                         <strong><p class="text-center mb-2">Enter a 6 digit product number</p></strong>
+                                         <div class="mb-3"><input id="productId" class="form-control" type="text" name="mpn" placeholder="Product ID" required pattern="^\d{6}$" minlength="6" maxlength="6" /></div>
+                                         <div class="mb-3"></div>
+                                         <div class="mb-3"></div>
+                                         <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
+                                     </div>
+                                 </div>
+                             <!-- </div> -->
+                         </div>
+                     </div>
+                 </section>
+             </form>
+         </div>
+     </div>
       <script src="assets/bootstrap/js/bootstrap.min.js"></script>
       <script src="assets/js/requestImage.js"></script>
    </body>

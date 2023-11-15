@@ -6,8 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const port = process.env.PORT
-// const port = 3000;
+// const port = process.env.PORT
+const port = 3000;
 
 // Set up a static route to serve static files (like index.html)
 app.use(express.static(__dirname));
